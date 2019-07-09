@@ -33,3 +33,8 @@ R vs C++
 
 - cannot change type of variable
 - scalars, not vectors by default
+- copies vs no copies of vectors
+
+In C++ you can have two functions with same name if they have different types. In R you cannot do that so that you cannot write 2 exported Rcpp functions this way.
+
+In R luckily with only have 27 different types :)
